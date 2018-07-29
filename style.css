@@ -123,11 +123,25 @@ hr {
 }
 
 @media screen and (max-width: 833px) {
-  input-field {
+  .input-field {
     width: 80%;
   }
-  select {
+  .select {
     width: 90%;
+  }
+}
+
+@media (max-width: 650px) {
+  img {
+    width: 75%;
+  }
+  
+  #title {
+    font-size: 20px;
+  }
+  
+  hr {
+    width: 100%;
   }
 }
 
